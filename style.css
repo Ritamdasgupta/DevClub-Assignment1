@@ -1,0 +1,359 @@
+.navbar ul {
+  list-style-type: none;
+  background-color: rgb(51, 107, 34);
+  padding: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+}
+.navbar li {
+  display: inline;
+  font-size: 200%;
+  margin-right: 50px;
+}
+
+.navbar a:visited {
+  text-decoration: none;
+  color: gainsboro;
+}
+.navbar a:link {
+  text-decoration: none;
+  color: gainsboro;
+}
+
+/* navintro would make sure that there is no "gap" between the intro and navbar elements.*/
+.navintro {
+  background-color: rgb(12, 4, 58);
+}
+
+/*just for the titles of the about section.*/
+.intro_heading {
+  background-color: rgb(12, 4, 58);
+  text-align: center;
+  font-size: 200%;
+  color: blanchedalmond;
+}
+/*intro contains the contents of the entire about section.*/
+.intro {
+  color: blanchedalmond;
+}
+.intro p {
+  font-size: 250%;
+  margin: 30px;
+  padding: 40px;
+}
+.intro img {
+  border-radius: 125px;
+  width: 250px;
+  height: 250px;
+  margin: 50px;
+  margin-bottom: 20px;
+}
+
+/*tips_mask was necessary so as to not have to format "tips" separately.*/
+.tips_mask {
+  color: rgb(19, 0, 126);
+  text-align: center;
+  font-size: 200%;
+}
+.mask_container img {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+}
+/*the container class contains the image + the text of a section.*/
+.mask_container {
+  display: flex;
+  color: rgb(0, 0, 0);
+  align-items: center;
+  padding: 40px;
+}
+/*the master class contains the entire contents of that section.*/
+.mask_master {
+  border: 3px solid darkblue;
+  background-color: rgb(238, 246, 247);
+  border-radius: 30px;
+  margin-bottom: 50px;
+  padding: 20px;
+}
+.mask_master h2 {
+  font-size: 200%;
+}
+
+.wash_master h5 {
+  color: rgb(19, 0, 126);
+
+  font-size: 200%;
+}
+.wash_container {
+  display: flex;
+  color: rgb(0, 0, 0);
+  align-items: center;
+}
+.wash_master {
+  border: 3px solid darkblue;
+  padding: 20px;
+  border-radius: 30px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 200%;
+}
+
+.safe_master {
+  border: 3px solid darkblue;
+  padding: 40px;
+  border-radius: 30px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 200%;
+  background-color: rgba(243, 235, 222, 0.925);
+}
+.safe_master h5 {
+  color: rgb(19, 0, 126);
+
+  font-size: 200%;
+}
+
+.safe_container {
+  display: flex;
+  color: rgb(0, 0, 0);
+  align-items: center;
+}
+
+.safe_container img {
+  width: 350px;
+  height: 350px;
+  border-radius: 175px;
+}
+
+.vax_master {
+  border: 3px solid darkblue;
+  padding: 30px;
+  border-radius: 30px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 200%;
+}
+
+.vax_master h5 {
+  color: rgb(19, 0, 126);
+
+  font-size: 200%;
+}
+.vax_container {
+  display: flex;
+  color: rgb(0, 0, 0);
+  align-items: center;
+}
+.vax_master img {
+  width: 400px;
+  height: 400px;
+}
+.vax_master a:visited {
+  color: cadetblue;
+}
+.vax_master a:link {
+  color: cornflowerblue;
+}
+
+.symptoms_title {
+  color: rgb(19, 0, 126);
+  text-align: center;
+  font-size: 200%;
+  margin-bottom: 50px;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 100px;
+}
+thead th :nth-child(1) {
+  width: 30%;
+}
+thead th :nth-child(2) {
+  width: 20%;
+}
+thead th :nth-child(3) {
+  width: 35%;
+}
+th,
+td {
+  padding: 20px;
+}
+tbody td {
+  text-align: center;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+}
+thead,
+th {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 35px;
+  letter-spacing: 2px;
+  color: rgb(11, 2, 59);
+}
+tbody td {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 30 px;
+  letter-spacing: 2px;
+}
+tbody tr {
+  background-color: rgb(169, 195, 243);
+}
+thead tr {
+  background-color: antiquewhite;
+}
+
+.myth_title h1 {
+  color: rgb(19, 0, 126);
+  text-align: center;
+  font-size: 400%;
+}
+
+/*myth_cont1 is the first container class under the myth section.*/
+.myth_cont1 li {
+  font-size: 250%;
+  font-weight: bold;
+  color: rgb(128, 5, 5);
+}
+.myth_cont1 p {
+  font-size: 200%;
+}
+.myth_cont1 em {
+  font-weight: bold;
+  font-style: normal;
+  color: maroon;
+  margin-right: 10px;
+}
+.myth_cont1 {
+  border: 3px solid darkblue;
+  padding: 25px;
+  border-radius: 30px;
+  margin-bottom: 50px;
+}
+
+.myth_cont2 li {
+  font-size: 250%;
+  font-weight: bold;
+  color: rgb(128, 5, 5);
+}
+.myth_cont2 p {
+  font-size: 200%;
+}
+.myth_cont2 em {
+  font-weight: bold;
+  font-style: normal;
+  color: maroon;
+  margin-right: 10px;
+}
+.myth_cont2 {
+  border: 3px solid darkblue;
+  padding: 25px;
+  border-radius: 30px;
+  margin-bottom: 50px;
+}
+
+.myth_cont3 li {
+  font-size: 250%;
+  font-weight: bold;
+  color: rgb(128, 5, 5);
+}
+.myth_cont3 p {
+  font-size: 200%;
+}
+.myth_cont3 em {
+  font-weight: bold;
+  font-style: normal;
+  color: maroon;
+  margin-right: 10px;
+}
+.myth_cont3 {
+  border: 3px solid darkblue;
+  padding: 25px;
+  border-radius: 30px;
+  margin-bottom: 50px;
+}
+
+.myth_cont4 li {
+  font-size: 250%;
+  font-weight: bold;
+  color: rgb(0, 117, 0);
+}
+.myth_cont4 p {
+  font-size: 200%;
+}
+.myth_cont4 em {
+  font-weight: bold;
+  font-style: normal;
+  color: rgb(0, 117, 0);
+  margin-right: 10px;
+}
+.myth_cont4 {
+  border: 3px solid darkblue;
+  padding: 25px;
+  border-radius: 30px;
+  margin-bottom: 50px;
+}
+
+.myth_cont5 li {
+  font-size: 250%;
+  font-weight: bold;
+  color: rgb(0, 117, 0);
+}
+.myth_cont5 p {
+  font-size: 200%;
+}
+.myth_cont5 em {
+  font-weight: bold;
+  font-style: normal;
+  color: rgb(0, 117, 0);
+  margin-right: 10px;
+}
+.myth_cont5 {
+  border: 3px solid darkblue;
+  padding: 25px;
+  border-radius: 30px;
+  margin-bottom: 50px;
+}
+
+.video {
+  color: rgb(19, 0, 126);
+  text-align: center;
+  font-size: 300%;
+}
+
+.links {
+  font-size: 200%;
+}
+.links h5 {
+  color: rgb(19, 0, 126);
+  text-align: center;
+  font-size: 120%;
+  margin-bottom: 50px;
+}
+.links a:link {
+  color: rgb(47, 0, 94);
+}
+.links a:visited {
+  color: rgb(73, 7, 7);
+}
+
+/*nav_footer serves a similar purpose as navintro*/
+.nav_footer {
+  background-color: rgb(51, 107, 34);
+}
+
+.footer {
+  text-align: center;
+  font-size: 200%;
+  padding: 50px;
+}
+.footer a:link,
+a:visited {
+  text-decoration: underline;
+  color: gainsboro;
+}
